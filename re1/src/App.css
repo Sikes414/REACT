@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.App-header, .App-footer {
+  background-color: #101f3d;
+  padding: 1rem;
+  color: white;
+}
+
+.App-body {
+  display: flex;
+  min-height: 60vh;
+  padding: 1rem;
+}
+
+.App-left, .App-right {
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.App-footer {
+  margin-top: 1rem;
+}
